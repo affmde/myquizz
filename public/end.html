@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Quiz</title>
+    <link rel="stylesheet" href="end.css" type="text/css" /> 
+</head>
+
+<body>
+    <div class="container">
+        <div class="stats-container">
+        <div class="pontuation">
+            <h1>Your points: </h1>
+            <h1 class="final-points"></h1>
+        </div>
+        <div class="stats">
+            <h1>Number of correct answers:</h1>
+            <p id="number-of-correct-answers"></p>
+            <h1>Number of incorrect answers:</h1>
+            <p id="number-of-incorrect-answers"></p>
+        </div>
+        </div>
+        <div class="form">
+            <form class="form-container">
+                <p>Enter your name to save your score:</p>
+                <input type="text" name="name" id="username" placeholder="enter your name">
+                <div class="buttons">
+                <div>
+                    <button class="btn" id="saveButton" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+                </div>
+                <div>
+                    <a href="/index.html" id="playAgain">Play Again</a>
+                <div>      
+                    <a href="/home.html" id="home">Home</a>   
+                </div> 
+            </div>
+            </form>
+ 
+    </div>
+    
+    </div>
+    <script src="end.js"></script>
+    <script src="/src/index.js"></script>
+</body>
+</html> 

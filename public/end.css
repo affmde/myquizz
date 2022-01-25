@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    color: white;
+    width: auto;
+
+  }
+
+.container{
+    
+    margin: 0px;
+    padding: 0px;
+    width: 75%;
+}
+.stats-container{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.stats{
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    width: 50%;
+    border-radius: 4px;
+    font-size: 10px;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    border-bottom: solid white 3px;
+  }
+.pontuation{
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    width: 50%;
+    border-radius: 4px;
+    font-size: 2rem;
+    border-bottom: solid white 3px;
+    
+  }
+
+  p{
+      font-size: 25px;
+      font-style: oblique;
+      font-weight: bold;
+  }
+
+.form-container{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+#username{
+    width: 52%;
+    height: 40px;
+}
+
+
+#saveButton, #playAgain, #home{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    background: turquoise;
+    border: solid black 2px;
+    font-size: 20px;
+    text-decoration: none black;
+    color: black;
+}
+
+#saveButton:hover, #playAgain:hover, #home:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(90, 141, 202, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+    
+}
+
+#saveButton[disabled]:hover{
+    cursor: not-allowed;
+     box-shadow: none;
+     transform: none;
+    
+}
+
+#saveButton{
+    width: 54%;
+    
+}

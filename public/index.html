@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>The Quiz</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />   
+  </head>
+
+  <body> 
+    <div class= "quizTitle">
+      <h1> The Quiz - Challenge your knowledge!</h1>
+    </div>
+  <div>
+    <div class="quizz">
+      <div class="progress">
+        <div class="progress-info">
+          <h1 class="progressText"></h1>
+        </div>
+        <div class="timer">
+          <h1>Time left:</h1>
+          <h1 class="time-left">60</h1>
+        </div>
+        <div class="progress-info">
+          <h1>Score:</h1>
+          <h1 id= "points">0</h1>
+        </div>     
+      </div>
+
+    <div class="questionary">
+      <div class="question-container">
+      <h3 id="question"></h3>
+      </div>
+      <div class="option-container">
+        <p class="option-letter">A</p>
+        <p class="choice-text" data-number="1">Choice 1</p>
+      </div>
+      <div class="option-container">
+        <p class="option-letter">B</p>
+        <p class="choice-text" data-number="2">Choice 2</p>
+      </div>
+      <div class="option-container">
+        <p class="option-letter">C</p>
+        <p class="choice-text" data-number="3">Choice 3</p>
+      </div>
+      <div class="option-container">
+        <p class="option-letter">D</p>
+        <p class="choice-text" data-number="4">Choice 4</p>
+      </div>
+    
+  </div>
+  </div>
+</div>
+  <script src="/src/index.js"></script>
+  </body>
+</html>
+
+

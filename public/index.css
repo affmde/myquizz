@@ -1,0 +1,102 @@
+body {
+  background-color: black;
+  
+
+}
+
+
+
+h1{
+  color: white;
+}
+
+
+.question-container{
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 2rem;
+  min-width: 80rem;
+}
+
+#question{
+  color: white;
+}
+
+.option-container{
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  border-radius: 4px;
+  background: cornflowerblue;
+  font-size: 20px;
+  min-width: 40rem;
+  cursor: pointer;
+
+}
+
+.option-container:hover {
+  background: darkblue;
+  transform: scale(1.02);
+  
+}
+
+.option-letter{
+  padding: 10px 10px;
+  color: white;
+  
+}
+
+.choice-text{
+  padding: 10px;
+  width: 100%;
+  color: white;
+  text-shadow: orangered;
+  font-weight: bold;
+}
+
+.correct{
+  background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect{
+  background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+
+.progress{
+  display: flex;
+  justify-content: space-between;
+  width: 50rem;
+}
+
+.progress-info{
+  text-align: center;
+  font-size: 1rem;
+}
+
+.progress-text{
+  text-align: center;
+  color: white;
+}
+
+#points{
+  text-align: center;
+}
+
+@media screen and (max-width: 760px){
+  .option-container{
+    min-width: 40px;
+  }
+}
+
+.questionary{
+  border-style: solid;
+  border-color: white;
+  border-radius: 2%;
+  padding: 0.4rem 1rem;
+  background: black;
+  width: 50rem;
+  text-align: center;
+}
